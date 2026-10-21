@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Foundation-LLM-Models/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Foundation-LLM-Models?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Foundation-LLM-Models/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Foundation-LLM-Models?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Foundation-LLM-Models/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Foundation-LLM-Models?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Foundation-LLM-Models/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Foundation-LLM-Models?style=flat-square&color=red" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Foundation-LLM-Models/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
@@ -67,51 +67,51 @@ The following SaaS and API platforms provide hosted, frontier foundation LLM acc
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated list of leading open-weight LLM repositories, model weights, and foundation frameworks for self-hosting, fine-tuning, and inference. Ranked in descending order by GitHub stargazers count, with real-time star badges linking directly to each repository's stargazers page.
+Curated list of leading open-weight LLM repositories, model weights, and foundation frameworks for self-hosting, fine-tuning, and inference. Ranked in descending order by GitHub stargazers count, with real-time Stars_Badges linking directly to each repository's stargazers page.
 
-- **[DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)** [![GitHub stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-V3?style=social&color=white)](https://github.com/deepseek-ai/DeepSeek-V3/stargazers) 🧠  
+- **[DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)** [![GitHub_Stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-V3?style=social&color=white)](https://github.com/deepseek-ai/DeepSeek-V3/stargazers) 🧠  
   DeepSeek's flagship Mixture-of-Experts (MoE) foundation model with 671B total parameters (37B activated per token) and multi-head latent attention (MLA). Delivers frontier-level performance at a fraction of pre-training and inference compute costs. MIT licensed.
 
-- **[DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)** [![GitHub stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-R1?style=social&color=white)](https://github.com/deepseek-ai/DeepSeek-R1/stargazers) 🔬  
+- **[DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)** [![GitHub_Stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-R1?style=social&color=white)](https://github.com/deepseek-ai/DeepSeek-R1/stargazers) 🔬  
   Breakthrough open-weight reasoning model developed with pure reinforcement learning (RL) without supervised fine-tuning (SFT) cold starts. Demonstrates math, coding, and logical reasoning comparable to OpenAI o1/o3, with full distillation releases across Qwen and Llama architectures. MIT licensed.
 
-- **[Meta Llama](https://github.com/facebookresearch/llama)** [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/llama?style=social&color=white)](https://github.com/facebookresearch/llama/stargazers) 🦙  
-  Meta's foundational open-weight language model repository that revolutionized open AI research. Accompanies the ongoing **[Meta Llama Models Ecosystem](https://github.com/meta-llama/llama-models)** [![GitHub stars](https://img.shields.io/github/stars/meta-llama/llama-models?style=social&color=white)](https://github.com/meta-llama/llama-models/stargazers) featuring Llama 3 and Llama 4 MoE architectures with native multimodality, 1M context windows, and tool-use capabilities under the Llama Community License.
+- **[Meta Llama](https://github.com/facebookresearch/llama)** [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/llama?style=social&color=white)](https://github.com/facebookresearch/llama/stargazers) 🦙  
+  Meta's foundational open-weight language model repository that revolutionized open AI research. Accompanies the ongoing **[Meta Llama Models Ecosystem](https://github.com/meta-llama/llama-models)** [![GitHub_Stars](https://img.shields.io/github/stars/meta-llama/llama-models?style=social&color=white)](https://github.com/meta-llama/llama-models/stargazers) featuring Llama 3 and Llama 4 MoE architectures with native multimodality, 1M context windows, and tool-use capabilities under the Llama Community License.
 
-- **[Qwen 2.5 / Qwen 3](https://github.com/QwenLM/Qwen2.5)** [![GitHub stars](https://img.shields.io/github/stars/QwenLM/Qwen2.5?style=social&color=white)](https://github.com/QwenLM/Qwen2.5/stargazers) 🌐  
+- **[Qwen 2.5 / Qwen 3](https://github.com/QwenLM/Qwen2.5)** [![GitHub_Stars](https://img.shields.io/github/stars/QwenLM/Qwen2.5?style=social&color=white)](https://github.com/QwenLM/Qwen2.5/stargazers) 🌐  
   Alibaba Cloud's comprehensive open-weight LLM suite spanning 0.5B to 72B dense parameters, plus MoE variants. Renowned for superior multilingual performance (covering 29+ languages), 128K context length, coding synthesis, and mathematical problem-solving. Apache 2.0 licensed.
 
-- **[State Spaces Mamba](https://github.com/state-spaces/mamba)** [![GitHub stars](https://img.shields.io/github/stars/state-spaces/mamba?style=social&color=white)](https://github.com/state-spaces/mamba/stargazers) ⚡  
+- **[State Spaces Mamba](https://github.com/state-spaces/mamba)** [![GitHub_Stars](https://img.shields.io/github/stars/state-spaces/mamba?style=social&color=white)](https://github.com/state-spaces/mamba/stargazers) ⚡  
   Pioneering linear-time sequence modeling architecture based on selective state space models (SSMs). Eliminates quadratic attention bottlenecks, enabling extreme context throughput and efficient inference on long document streams, forming the backbone for hybrid LLMs like AI21 Jamba. Apache 2.0 licensed.
 
-- **[Mistral Source & Inference](https://github.com/mistralai/mistral-src)** [![GitHub stars](https://img.shields.io/github/stars/mistralai/mistral-src?style=social&color=white)](https://github.com/mistralai/mistral-src/stargazers) 🌪️  
+- **[Mistral Source & Inference](https://github.com/mistralai/mistral-src)** [![GitHub_Stars](https://img.shields.io/github/stars/mistralai/mistral-src?style=social&color=white)](https://github.com/mistralai/mistral-src/stargazers) 🌪️  
   Reference implementations and open-weight checkpoints for Mistral AI's high-efficiency models, including Mistral 7B, Mixtral 8x7B/8x22B MoE, and Mistral Large 3 (675B parameters). Optimized for vLLM, TensorRT-LLM, and NVIDIA NIM deployment with native function calling and Apache 2.0 licensing.
 
-- **[01-AI Yi](https://github.com/01-ai/Yi)** [![GitHub stars](https://img.shields.io/github/stars/01-ai/Yi?style=social&color=white)](https://github.com/01-ai/Yi/stargazers) 💡  
+- **[01-AI Yi](https://github.com/01-ai/Yi)** [![GitHub_Stars](https://img.shields.io/github/stars/01-ai/Yi?style=social&color=white)](https://github.com/01-ai/Yi/stargazers) 💡  
   01.AI's open-source bilingual (English/Chinese) foundation model series spanning 6B, 9B, and 34B parameter sizes. Designed from ground up with 200K native context support and industry-leading performance on general knowledge benchmarks. Apache 2.0 licensed.
 
-- **[EleutherAI GPT-NeoX](https://github.com/EleutherAI/gpt-neox)** [![GitHub stars](https://img.shields.io/github/stars/EleutherAI/gpt-neox?style=social&color=white)](https://github.com/EleutherAI/gpt-neox/stargazers) 🧪  
+- **[EleutherAI GPT-NeoX](https://github.com/EleutherAI/gpt-neox)** [![GitHub_Stars](https://img.shields.io/github/stars/EleutherAI/gpt-neox?style=social&color=white)](https://github.com/EleutherAI/gpt-neox/stargazers) 🧪  
   Flagship distributed GPU pre-training and fine-tuning library for autoregressive language models built on Megatron-LM and DeepSpeed. Powers fully transparent open-source research and base models like Pythia. Apache 2.0 licensed.
 
-- **[InternLM](https://github.com/InternLM/InternLM)** [![GitHub stars](https://img.shields.io/github/stars/InternLM/InternLM?style=social&color=white)](https://github.com/InternLM/InternLM/stargazers) 🎓  
+- **[InternLM](https://github.com/InternLM/InternLM)** [![GitHub_Stars](https://img.shields.io/github/stars/InternLM/InternLM?style=social&color=white)](https://github.com/InternLM/InternLM/stargazers) 🎓  
   Shanghai AI Laboratory's open-source foundation model family supporting up to 1M token contexts, mathematical reasoning, agent tool invocation, and complete end-to-end training toolkits from pre-training to RLHF. Apache 2.0 licensed.
 
-- **[THUDM GLM-4](https://github.com/THUDM/GLM-4)** [![GitHub stars](https://img.shields.io/github/stars/THUDM/GLM-4?style=social&color=white)](https://github.com/THUDM/GLM-4/stargazers) 🇨🇳  
+- **[THUDM GLM-4](https://github.com/THUDM/GLM-4)** [![GitHub_Stars](https://img.shields.io/github/stars/THUDM/GLM-4?style=social&color=white)](https://github.com/THUDM/GLM-4/stargazers) 🇨🇳  
   Tsinghua University and Zhipu AI's flagship open bilingual model series (GLM-4-9B, GLM-4V). Features 128K context, high-speed multi-turn dialogue, web browsing, code execution, and vision understanding. Open weights under the GLM License.
 
-- **[Allen AI OLMo](https://github.com/allenai/OLMo)** [![GitHub stars](https://img.shields.io/github/stars/allenai/OLMo?style=social&color=white)](https://github.com/allenai/OLMo/stargazers) 📚  
+- **[Allen AI OLMo](https://github.com/allenai/OLMo)** [![GitHub_Stars](https://img.shields.io/github/stars/allenai/OLMo?style=social&color=white)](https://github.com/allenai/OLMo/stargazers) 📚  
   Truly open foundation model family providing open weights, training code, evaluation metrics, pre-training datasets (Dolma), and intermediate training logs. Built by AI2 to advance transparent scientific study of language models. Apache 2.0 licensed.
 
-- **[Google DeepMind Gemma](https://github.com/google-deepmind/gemma)** [![GitHub stars](https://img.shields.io/github/stars/google-deepmind/gemma?style=social&color=white)](https://github.com/google-deepmind/gemma/stargazers) 💎  
+- **[Google DeepMind Gemma](https://github.com/google-deepmind/gemma)** [![GitHub_Stars](https://img.shields.io/github/stars/google-deepmind/gemma?style=social&color=white)](https://github.com/google-deepmind/gemma/stargazers) 💎  
   Google's family of lightweight, state-of-the-art open models built from the same research and technology used to create Gemini. Features 2B, 7B, 9B, and 27B dense variants, plus Gemma 3 / 4 edge architectures optimized for LiteRT-LM, JAX, PyTorch, and Hugging Face. Gemma Terms of Use.
 
-- **[Salesforce CodeGen](https://github.com/salesforce/CodeGen)** [![GitHub stars](https://img.shields.io/github/stars/salesforce/CodeGen?style=social&color=white)](https://github.com/salesforce/CodeGen/stargazers) 💻  
+- **[Salesforce CodeGen](https://github.com/salesforce/CodeGen)** [![GitHub_Stars](https://img.shields.io/github/stars/salesforce/CodeGen?style=social&color=white)](https://github.com/salesforce/CodeGen/stargazers) 💻  
   Salesforce Research's family of foundation models trained for multi-turn program synthesis, code generation, and Conversational Programming across Python, Java, C++, and Go. BSD-3-Clause licensed.
 
-- **[Microsoft Phi CookBook & Small Language Models](https://github.com/microsoft/Phi-3CookBook)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/Phi-3CookBook?style=social&color=white)](https://github.com/microsoft/Phi-3CookBook/stargazers) 📐  
+- **[Microsoft Phi CookBook & Small Language Models](https://github.com/microsoft/Phi-3CookBook)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/Phi-3CookBook?style=social&color=white)](https://github.com/microsoft/Phi-3CookBook/stargazers) 📐  
   Official developer guide, recipes, and deployment architecture for Microsoft's Phi-3 and Phi-4 small language models (SLMs). Delivers remarkable mathematical, coding, and logical reasoning at compact footprint sizes (3.8B to 14B) for local PC and edge hardware. MIT licensed.
 
-- **[BigCode StarCoder2](https://github.com/bigcode-project/starcoder2)** [![GitHub stars](https://img.shields.io/github/stars/bigcode-project/starcoder2?style=social&color=white)](https://github.com/bigcode-project/starcoder2/stargazers) ⭐  
+- **[BigCode StarCoder2](https://github.com/bigcode-project/starcoder2)** [![GitHub_Stars](https://img.shields.io/github/stars/bigcode-project/starcoder2?style=social&color=white)](https://github.com/bigcode-project/starcoder2/stargazers) ⭐  
   Transparent code LLMs (3B, 7B, and 15B parameter models) developed by BigCode community trained on The Stack v2 across 600+ programming languages. Provides ethically sourced, fully audited training data pipelines under BigCode OpenRAIL-M v1 license.
 
 ---
