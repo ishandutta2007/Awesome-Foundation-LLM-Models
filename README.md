@@ -42,67 +42,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[OpenAI GPT-5](https://openai.com/)**  
-
-  OpenAI's flagship multimodal model family, launched August 2025 and iterated through GPT-5.6 by July 2026 . Features automatic routing between fast and deep reasoning modes, a million-token context window in GPT-5.4 Thinking, and built-in computer use. Proprietary and API-only.
-
-
-
-- **[Anthropic Claude Opus 4.7](https://www.anthropic.com/)**  
-
-  Anthropic's most capable model as of April 2026, with significant gains in agentic coding (CursorBench 70%+), tool-call reliability, and computer-use accuracy (98.5% on XBOW's visual-acuity benchmark vs. 54.5% for Opus 4.6) . Claude Sonnet 4.6 offers a 1M-token context window in beta . Proprietary.
-
-
-
-- **[Google Gemini 3 Deep Think](https://deepmind.google/technologies/gemini/)**  
-
-  Google's specialized reasoning mode for scientific and engineering problems. Achieves 48.4% on Humanity's Last Exam (no tools), 84.6% on ARC-AGI-2, and 95.4% on LiveCodeBench . Available to Google AI Ultra subscribers and via API early access. Proprietary.
-
-
-
-- **[Microsoft Copilot](https://copilot.microsoft.com/)**  
-
-  Microsoft's AI assistant built on OpenAI models, integrated across Windows, Office, and Edge. Offers enterprise data protection and Graph integration for organizational context.
-
-
-
-- **[AWS Bedrock](https://aws.amazon.com/bedrock/)**  
-
-  Managed service providing API access to multiple foundation models (Anthropic Claude, Meta Llama, Mistral, Cohere, AI21, and Amazon Titan) through a single interface. Best for AWS-native architectures requiring multi-model access.
-
-
-
-- **[Mistral Large 3 (API)](https://mistral.ai/)**  
-
-  Mistral's 675B parameter flagship model, available via API and NVIDIA NIM. Optimized for FP8 on 8xH200 or NVFP4 on H100/A100, with 256K context and native function calling . The model itself is open-weight (see below).
-
-
-
-- **[Cohere Command A](https://cohere.com/)**  
-
-  Cohere's flagship 111B parameter model for enterprise reasoning and agentic workflows. Command A Reasoning (August 2025) offers a 256K context window, 23-language reasoning, and ReAct agent support . Available via Cohere API and OCI Generative AI.
-
-
-
-- **[AI21 Labs Jamba](https://www.ai21.com/)**  
-
-  Jamba2 family (January 2026) with hybrid Mamba-Transformer architecture, 256K context, and 3B dense plus 52B/12A MoE variants . Enterprise-focused with private cloud and on-prem deployment options. API pricing: Jamba Mini $0.20/$0.40 per 1M tokens; Jamba Large $2/$8 per 1M tokens .
-
-
-
-- **[Perplexity Pro](https://www.perplexity.ai/)**  
-
-  AI-powered search and answer engine with access to multiple frontier models. Real-time web grounding with citations. Best for research workflows requiring up-to-date information.
-
-
-
-- **[Grok 4.5](https://x.ai/)**  
-
-  xAI's flagship model (July 2026) with 500K context window, multimodal vision, and real-time web search. API pricing at $2/$6 per 1M tokens (input/output) . Proprietary.
-
-
+| Platform / Model | Description | Starting Tier Pricing | Free Tier Limits |
+| :--- | :--- | :--- | :--- |
+| **[OpenAI GPT-5](https://openai.com/)** | OpenAI's flagship multimodal model family with automatic routing between fast and deep reasoning modes, 1M context window in Thinking variants, and built-in computer use. | Consumer: $20/mo (ChatGPT Plus); API starting at $1.25 / 1M input tokens, $10.00 / 1M output tokens (GPT-5 series) | Free forever plan: Unlimited standard text chats (dynamic model fallback); rolling quota of up to 10-16 messages per 3 hours on advanced models, limited web search, file analysis, and 2 image generations per day. |
+| **[Anthropic Claude Opus 4.7](https://www.anthropic.com/)** | Anthropic's flagship model specialized for complex reasoning, agentic coding, computer use, and long-form analysis with 1M context beta support. | Consumer: $20/mo (Claude Pro); API starting at $5.00 / 1M input tokens, $25.00 / 1M output tokens (Opus series) | Free forever plan: Dynamic message quota (typically ~10–30 messages per 5-hour rolling window depending on demand and prompt length) using standard Claude models; 5 artifacts/projects max. |
+| **[Google Gemini 3 Deep Think](https://deepmind.google/technologies/gemini/)** | Google's specialized reasoning mode for scientific and engineering problem solving with native multimodality and live code execution. | Consumer: $19.99/mo (Google AI Pro); API starting at $1.25 / 1M input tokens, $5.00 / 1M output tokens (Gemini Pro/Flash variants) | Free forever plan: Full access to Gemini base web app with up to 60 queries/hour on standard models; Google AI Studio API free tier allows 15 RPM (requests per min), 1M TPM, and 1,500 requests/day. |
+| **[Microsoft Copilot](https://copilot.microsoft.com/)** | Microsoft's enterprise-grade AI assistant built on OpenAI models, integrated across Microsoft 365, Windows, and Edge with commercial data protection. | Consumer/Pro: $19.99/mo (Microsoft 365 Premium / Copilot Pro) or $30/user/mo (M365 Copilot Enterprise) | Free forever plan: Unlimited basic chat and search grounding on web/mobile/Edge; capped at 15 DALL-E / Designer fast image boosts per day; no M365 desktop app integration. |
+| **[AWS Bedrock](https://aws.amazon.com/bedrock/)** | Fully managed AWS service offering unified API access to foundation models from Anthropic, Meta, Mistral, Cohere, AI21, and Amazon Titan. | Pay-as-you-go starting at $0.00015 / 1K input tokens ($0.15 / 1M tokens on Amazon Nova Micro) | Free trial plan: No permanent free tier; new AWS accounts receive a $200 promotional credit valid for up to 6 months (180 days) applicable across Bedrock foundation model inference. |
+| **[Mistral Large 3 (API)](https://mistral.ai/)** | Mistral's 675B parameter flagship model available via La Plateforme API and NVIDIA NIM, optimized for FP8/NVFP4 inference with 256K context. | Pay-as-you-go starting at $2.00 / 1M input tokens, $6.00 / 1M output tokens (Mistral Large) | Free forever plan: "Experiment" evaluation tier on La Plateforme with $0 payment required; strictly rate-limited to 1 request per second (RPS) and up to ~1B monthly tokens across evaluation endpoints. |
+| **[Cohere Command A](https://cohere.com/)** | Cohere's 111B parameter enterprise model family built for multi-step agentic workflows, multilingual reasoning (23 languages), and grounded citations. | Pay-as-you-go starting at $0.40 / 1M input tokens, $1.60 / 1M output tokens (Command A) | Free forever plan: Evaluation Trial Key provides up to 1,000 API calls per month total across all endpoints, capped at 20 requests per minute (RPM) for Command chat models (strictly non-production). |
+| **[AI21 Labs Jamba](https://www.ai21.com/)** | Hybrid SSM-Transformer architecture with 256K context, offering Jamba Mini ($0.20/$0.40 per 1M tokens) and Jamba Large ($2.00/$8.00 per 1M tokens). | Pay-as-you-go starting at $0.20 / 1M input tokens, $0.40 / 1M output tokens (Jamba Mini) | Free trial plan: $10.00 USD in free platform credits upon account creation, valid for 90 days (3 months) without requiring a credit card. |
+| **[Perplexity Pro](https://www.perplexity.ai/)** | AI-powered conversational search engine providing real-time web citations, multi-file uploads, and multi-model access across leading frontier LLMs. | Pro plan: $20/mo (or $200/year billed annually) | Free forever plan: Unlimited standard search queries; 3 Pro Searches (deep research / multi-step reasoning) every 24 hours; 1 Deep Research query per month; up to 3 file uploads/day. |
+| **[Grok 4.5](https://x.ai/)** | xAI's flagship model featuring 500K context, multimodal vision, real-time X data access, and deep reasoning capabilities. | Consumer: $8/mo (X Basic/Plus) or $30/mo (X Premium+); API pay-as-you-go starting at $2.00 / 1M input tokens, $6.00 / 1M output tokens | Free forever plan: Free web/mobile chat with dynamic quota (typically 10-20 queries per 2 hours on Grok 2/3 variants); API console grants a one-time $25 promotional credit valid for 30 days upon registration. |
 
 ## Open-Source GitHub Projects
 
