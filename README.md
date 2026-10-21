@@ -136,10 +136,10 @@ A huge thank you to everyone exploring, using, and contributing to this curated 
 If you find this repository valuable for your research, team, or production stacks, please consider supporting the project:
 - ⭐ **Star** this repository to help boost discoverability on GitHub.
 - 🍴 **Fork** and share it with your fellow engineers, researchers, and AI communities.
-- ☕ **Buy me a coffee / Sponsor the project**: Support ongoing maintenance and curation via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2).
+- ☕ **Buy me a coffee / Sponsor the project**: Support ongoing maintenance and curation via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
 
-[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/ishandutta2)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://github.com/sponsors/ishandutta2)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/ishandutta2007)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://github.com/sponsors/ishandutta2007)
 
 ---
 
